@@ -1,0 +1,39 @@
+{
+  "name": "rc-field-form-bug",
+  "version": "1.0.0",
+  "description": "A reproducer for a rc-field-form-bug",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack-cli serve --mode=development --env development --open --hot",
+    "build": "webpack --mode=production --env production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngrewe/rc-field-form-bug.git"
+  },
+  "author": "Niels Grewe <niels.grewe@halbordnung.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngrewe/rc-field-form-bug/issues"
+  },
+  "homepage": "https://github.com/ngrewe/rc-field-form-bug#readme",
+  "devDependencies": {
+    "@types/node": "16.18.36",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@types/webpack": "5.28.1",
+    "@types/webpack-dev-server": "4.7.1",
+    "html-webpack-plugin": "5.5.3",
+    "ts-loader": "9.4.3",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.5",
+    "webpack": "5.88.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rc-field-form": "1.33.0"
+  }
+}
